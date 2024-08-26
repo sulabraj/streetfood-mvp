@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Local Bites</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
+</head>
+<body class="body">
+    <div class="mobileContainer">
+        <div class="mobileScreen">
+            <div class="topContainer scrollable-container">
+                <div class="filterContainer">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle p-0" type="button" data-toggle="dropdown"><i class="glyphicon glyphicon-align-justify"></i></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Your review</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Choose Language</a></li>
+                            <li><a href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+                    <div class="text-center appHeading">
+                        Local Bites
+                    </div>
+                </div>
+                <h4>Profile</h4>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    
+                    <div class="form-group w-50 pull-left">
+                        <label for="age">Age:</label>
+                        <input type="number" class="form-control" id="age">
+                    </div>
+                    <div class="form-group w-50 pull-right">
+                        <label for="gender">Gender:</label>
+                        <div class="genderContainer">
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" checked>Male
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio" checked>Female
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="form-control btn btn-primary">Update</button>
+                    </div>
+                </form>
+                <h4>Password</h4>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">New Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="**********">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Confirm Password:</label>
+                        <input type="password" class="form-control" id="cpassword" placeholder="**********">
+                    </div>
+                    <div class="form-group">
+                        <button class="form-control btn btn-primary">Change</button>
+                    </div>
+                </form>
+            </div>
+            <div class="bottomContainer">
+                <div class="bottomContainer_buttons">
+                    <a href="#"><i class="glyphicon glyphicon-user active"></i></a>
+                </div>
+                <div class="bottomContainer_buttons">
+                    <a href="map.html"><i class="glyphicon glyphicon-map-marker"></i></a>
+                </div>
+                <div class="bottomContainer_buttons">
+                    <a href="settings.html"><i class="glyphicon glyphicon-cog"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
